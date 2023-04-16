@@ -1,0 +1,79 @@
+body {
+    background-color: #000000;
+    overflow: hidden;
+    font-family: "Roboto";
+    font-size: 22px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    cursor: none;
+}
+
+.container {
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    border-radius: 20px;
+
+    transition-duration: 1s;
+}
+
+.pasek1 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 950px;
+    height: 130px;
+    line-height: 75px;
+
+}
+
+@keyframes example {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.logo {
+    position: absolute;
+    right: 27px;
+    bottom: 11px;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.strzalka {
+    position: absolute;
+    right: 23px;
+    bottom: 0px;
+    width: 110px;
+    height: 214px;
+    line-height: 75px;
+
+}
+
+h1 {
+    color: white;
+    margin: 0px;
+    position: absolute;
+    bottom: 72px;
+    left: -890px;
+
+}
+
+h2 {
+	color: white;
+    margin: 0px;
+    position: absolute;
+    bottom: 20px;
+    left: -850px;
+}
+
+.closed {
+    right: -1080px !important;
+}
+
